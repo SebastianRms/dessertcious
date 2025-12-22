@@ -8,7 +8,7 @@ Bienvenido a **Dessertcious**, una plataforma diseñada para gestionar y exhibir
 
 Esta sección documenta mi camino de aprendizaje y las decisiones técnicas tomadas para estandarizar mis procesos de desarrollo.
 
-### 📅 [Fecha de inicio: Hoy] - Cimientos y Arquitectura
+### 📅 [Fecha de inicio: 21-12-2025] - Cimientos y Arquitectura
 - **Decisión:** Implementé una **Arquitectura Clásica** (Controllers, Models, Routes) para asegurar la escalabilidad y el orden del código.
 - **Aprendizaje:** Instalé y configuré **pnpm**. Aprendí que es más eficiente que npm gracias a los *hard links* y más seguro debido a su estructura de dependencias no plana.
 - **Reto superado:** Resolví el warning de construcción de `bcrypt` usando `pnpm approve-builds`, comprendiendo que ciertas librerías necesitan permisos para compilar binarios nativos.
