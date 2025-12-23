@@ -1,0 +1,13 @@
+# Dependencias (Se descargan con pnpm install, no se suben)
+node_modules/
+
+# Variables de entorno (Contraseñas y claves secretas)
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs de errores
+npm-debug.log*
+pnpm-debug.log*
