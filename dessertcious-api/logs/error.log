@@ -1,0 +1,89 @@
+2025-12-27T02:43:09.034Z | POST /api/categories | Cannot read properties of undefined (reading 'map') | TypeError: Cannot read properties of undefined (reading 'map')
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/validatorMiddleware.js:11:34
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:18:5
+    at C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:101:10)
+    at authRequired (file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:12:7)
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+2025-12-27T02:57:44.550Z | POST /api/products | Cannot read properties of undefined (reading 'map') | TypeError: Cannot read properties of undefined (reading 'map')
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/validatorMiddleware.js:11:34
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:18:5
+    at C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:101:10)
+    at authRequired (file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:12:7)
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+2025-12-27T02:59:42.217Z | POST /api/products | Cannot read properties of undefined (reading 'map') | TypeError: Cannot read properties of undefined (reading 'map')
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/validatorMiddleware.js:11:34
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:18:5
+    at C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:101:10)
+    at authRequired (file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:12:7)
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+2025-12-27T03:01:23.758Z | POST /api/products | Cannot read properties of undefined (reading 'map') | TypeError: Cannot read properties of undefined (reading 'map')
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/validatorMiddleware.js:14:38
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:18:5
+    at C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:101:10)
+    at authRequired (file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:12:7)
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+2025-12-27T03:13:12.042Z | POST /api/products | Cannot read properties of undefined (reading 'map') | TypeError: Cannot read properties of undefined (reading 'map')
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/validatorMiddleware.js:19:38
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:18:5
+    at C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:101:10)
+    at authRequired (file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:12:7)
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+2025-12-27T03:19:20.093Z | POST /api/products | Cannot read properties of undefined (reading 'map') | TypeError: Cannot read properties of undefined (reading 'map')
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/validatorMiddleware.js:11:34
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:18:5
+    at C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:101:10)
+    at authRequired (file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:12:7)
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+2025-12-27T16:07:36.042Z | POST /api/products | Cannot read properties of undefined (reading 'map') | TypeError: Cannot read properties of undefined (reading 'map')
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/validatorMiddleware.js:11:34
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:18:5
+    at C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:101:10)
+    at authRequired (file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:12:7)
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+2025-12-27T16:08:45.400Z | POST /api/products | Cannot read properties of undefined (reading 'map') | TypeError: Cannot read properties of undefined (reading 'map')
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/validatorMiddleware.js:11:34
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+    at file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:18:5
+    at C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\jsonwebtoken@9.0.3\node_modules\jsonwebtoken\verify.js:101:10)
+    at authRequired (file:///C:/Users/sebas/Desktop/proyectos/dessertcious/dessertcious/dessertcious-api/src/middlewares/authMiddleware.js:12:7)
+    at Layer.handleRequest (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\sebas\Desktop\proyectos\dessertcious\dessertcious\dessertcious-api\node_modules\.pnpm\router@2.2.0\node_modules\router\lib\route.js:157:13)
+2025-12-27T16:35:54.123Z | POST /api/products | Invalid Signature ead34415bd013d4433ff378028b11dd3c67fd928. String to sign - 'allowed_formats=jpg,png,jpeg,webp&folder=dessertcious_products&timestamp=1766853352'. | undefined

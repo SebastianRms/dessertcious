@@ -1,13 +1,9 @@
 import { z } from "zod";
 
 export const createCategorySchema = z.object({
-  body: z.object({
-    nombre: z
-      .string({
-        required_error: "El nombre de la categoría es requerido",
-      })
-      .min(3),
-  }),
+    nombre: z.string({
+        required_error: "El nombre de la categoría es requerido"
+    }).min(3, "El nombre debe tener al menos 3 caracteres")
 });
 
 export const createProductSchema = z.object({

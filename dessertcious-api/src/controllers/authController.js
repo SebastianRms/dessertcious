@@ -1,20 +1,12 @@
-import User from '../models/User.js';
-import { registerSchema, loginSchema } from '../schemas/authSchema.js'; 
+import User from '../models/users.js';
 import bcrypt from 'bcrypt'; 
 import jwt from 'jsonwebtoken';
+import { JWT_SECRET } from '../config/config.js'; // Usamos la variable centralizada
 
 export const register = async (req, res) => {
-    const result = registerSchema.safeParse(req.body);
-
-    if (!result.success) {
-        return res.status(400).json({ 
-            message: "Error en los datos",
-            errors: result.error.issues.map(issue => issue.message) 
-        });
-    }
-
+    // NOTA: Ya no hay 'schema.safeParse'. Si llegamos aquí, los datos son válidos.
     try {
-        const { email, password, nombre } = result.data; 
+        const { email, password, nombre } = req.body; 
 
         const userFound = await User.findOne({ email });
         if (userFound) return res.status(400).json({ message: ["El email ya está en uso"] });
@@ -31,7 +23,7 @@ export const register = async (req, res) => {
 
         const token = jwt.sign(
             { id: userSaved._id },
-            process.env.JWT_SECRET, 
+            JWT_SECRET, 
             { expiresIn: "1d" } 
         );
 
@@ -43,22 +35,14 @@ export const register = async (req, res) => {
         });
 
     } catch (error) {
+        // El error 500 ahora lo podría manejar el middleware, pero dejarlo así está bien por ahora
         res.status(500).json({ message: error.message });
     }
 };
 
 export const login = async (req, res) => {
-    const result = loginSchema.safeParse(req.body);
-
-    if (!result.success) {
-        return res.status(400).json({ 
-            message: "Datos inválidos",
-            errors: result.error.issues.map(issue => issue.message) 
-        });
-    }
-
     try {
-        const { email, password } = result.data;
+        const { email, password } = req.body;
 
         const userFound = await User.findOne({ email });
         if (!userFound) return res.status(400).json({ message: ["Usuario no encontrado"] });
@@ -68,7 +52,7 @@ export const login = async (req, res) => {
 
         const token = jwt.sign(
             { id: userFound._id },
-            process.env.JWT_SECRET,
+            JWT_SECRET,
             { expiresIn: "1d" }
         );
 
@@ -81,5 +65,24 @@ export const login = async (req, res) => {
 
     } catch (error) {
         res.status(500).json({ message: error.message });
+    }
+};
+
+export const verifyToken = async (req, res) => {
+    try {
+        // El middleware 'authRequired' ya puso el usuario en req.user
+        // Pero para estar seguros, buscamos los datos frescos en la BD
+        const userFound = await User.findById(req.user.id);
+
+        if (!userFound) return res.status(401).json({ message: "Usuario no autorizado" });
+
+        return res.json({
+            id: userFound._id,
+            nombre: userFound.nombre,
+            email: userFound.email,
+            // No necesitamos mandar el token de nuevo, ya lo tienen
+        });
+    } catch (error) {
+        return res.status(500).json({ message: error.message });
     }
 };
